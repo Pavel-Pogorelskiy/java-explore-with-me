@@ -193,7 +193,7 @@ public class EventServiceImpl implements EventService {
             }
         }
         if (events.isEmpty()) {
-            new ArrayList<>();
+            return new ArrayList<>();
         }
         if (onlyAvailable) {
             events = events.stream()
