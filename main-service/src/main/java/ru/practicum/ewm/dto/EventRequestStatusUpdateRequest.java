@@ -10,7 +10,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 public class EventRequestStatusUpdateRequest {
-    List<Integer> requestIds;
+    private List<Integer> requestIds;
     @NotNull
-    Status status;
+    private Status status;
 }
